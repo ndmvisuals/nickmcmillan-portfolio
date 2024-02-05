@@ -10,10 +10,6 @@ published: true
 
 ## Markdown
 
-Hey friends! 👋
+Hey friends! 👋 This is a test blog and will be replaced latter
 
-```ts
-function greet(name: string) {
-	console.log(`Hey ${name}! 👋`)
-}
-```
+
