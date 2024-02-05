@@ -9,7 +9,7 @@
 	<title>{config.title}</title>
 </svelte:head>
 
-<h1> {config.description} </h1>
+<h1> Site in progress, please come back soon </h1>
 
 <style>
 	
