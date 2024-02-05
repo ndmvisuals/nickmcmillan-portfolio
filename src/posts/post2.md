@@ -8,6 +8,6 @@ categories:
 published: true
 ---
 
-## Svelte
+## Test Blog 2
 
-Test blog 2!
+Hey friends! 👋 This is a test blog and will be replaced later

@@ -8,8 +8,8 @@ categories:
 published: true
 ---
 
-## Markdown
+## Test Blog 1
 
-Hey friends! 👋 This is a test blog and will be replaced latter
+Hey friends! 👋 This is a test blog and will be replaced later
 
 
