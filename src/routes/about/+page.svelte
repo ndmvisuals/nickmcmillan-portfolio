@@ -1,1 +1,3 @@
-<p> Coming soon </p>
+
+
+<p> Nick McMillan is an associate producer who specializes in data with NPR's Investigations unit. He utilizes data-driven techniques, video and motion graphics to tell stories. Previously, McMillan worked at Newsy on investigative documentaries, where he contributed to stories uncovering white supremacists in the U.S. military and the aftermath of Hurricane Maria on Puerto Rican school children. McMillan has a bachelor's in statistics from Rice University and a master's in journalism from the University of Maryland.</p>

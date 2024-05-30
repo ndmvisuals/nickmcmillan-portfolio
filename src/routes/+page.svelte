@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
 	import * as config from '$lib/config'
-
+	import Intro from './intro.svelte'
 
 </script>
 
@@ -9,7 +9,8 @@
 	<title>{config.title}</title>
 </svelte:head>
 
-<h1> Site in progress, please come back soon </h1>
+	<!-- Intro -->
+	<Intro />
 
 <style>
 	
