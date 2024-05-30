@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 29, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 26, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Investigative journalist who uses data and videography to tell stories. Currently at NPR."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "projects/post-with-code/index.html",
+    "href": "projects/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Zombie 2nd mortgages are coming to life, threatening thousands of Americans’ homes\n\n\n\nNPR\n\n\ntranslation\n\n\n\n\n\n\n\nChris Arnold, Robert Benincasa, Nick McMillan\n\n\nMay 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHistorical markers are everywhere in America. Some get history wrong\n\n\n\nNPR\n\n\ncode\n\n\n\n\n\n\n\nLaura Sullivan, Nick McMillan\n\n\nApr 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n‘We got workers in the water’: Audio reveals new details of Baltimore bridge rescue\n\n\n\nNPR\n\n\ncode\n\n\n\n\n\n\n\nChiara Eisner, Nick McMillan, Caitlin Thompson\n\n\nMar 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOnly 51 of these U.S. whales remain. Little has been done to prevent their extinction\n\n\n\nNPR\n\n\ncode\n\n\n\n\n\n\n\nChiara Eisner, Nick McMillan\n\n\nNov 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1,000 people have been charged for the Capitol riot. Here’s where their cases stand\n\n\n\nNPR\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nMeg Anderson\n\n\nMar 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhen train crashes leak harmful chemicals, small town firefighters can be vulnerable\n\n\n\nNPR\n\n\ncode\n\n\n\n\n\n\n\nChiara Eisner, Nick McMillan\n\n\nMar 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElection deniers have taken their fraud theories on tour — to nearly every state\n\n\n\nNPR\n\n\ncode\n\n\n\n\n\n\n\nMiles Parks, Allison Mollenkamp, Nick McMIllan\n\n\nJun 30, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/historical-markers/index.html",
+    "href": "projects/historical-markers/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "projects/rices-whales/index.html",
+    "href": "projects/rices-whales/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "projects/election-deniers-map/index.html",
+    "href": "projects/election-deniers-map/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "projects/zombie-loans/index.html",
+    "href": "projects/zombie-loans/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "projects/east-palestine-firefighters/index.html",
+    "href": "projects/east-palestine-firefighters/index.html",
+    "title": "When train crashes leak harmful chemicals, small town firefighters can be vulnerable",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "projects/key-bridge-collapse/index.html",
+    "href": "projects/key-bridge-collapse/index.html",
+    "title": "‘We got workers in the water’: Audio reveals new details of Baltimore bridge rescue",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "projects/capitol-riot/index.html",
+    "href": "projects/capitol-riot/index.html",
+    "title": "Capitol Riot",
+    "section": "",
+    "text": "This is a post with executable code."
+  }
+]

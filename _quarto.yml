@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Nick McMillan"
+  navbar:
+    right:
+      - index.qmd
+      - project.qmd
+      - blog.qmd
+format:
+  html:
+    theme: litera
+    css: styles.css
+
+
+
