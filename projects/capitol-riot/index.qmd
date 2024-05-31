@@ -1,8 +1,9 @@
 ---
 title: "1,000 people have been charged for the Capitol riot. Here's where their cases stand"
-author: "Meg Anderson"
+author: "Meg Anderson, Nick McMillan"
 date: "2023-03-25"
 categories: [NPR, code, analysis]
-image: "image.jpg"
+image: "https://media.npr.org/assets/img/2023/03/21/insurrection-database3-1000_wide-4a29f4ee428496d45b41c4732f64d675661f5d90.jpg?s=600&c=85&f=webp"
+url: "https://www.npr.org/2023/03/25/1165022885/1000-defendants-january-6-capitol-riot"
 ---
 

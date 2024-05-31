@@ -6,13 +6,13 @@ about:
   links:
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/ndmvisuals
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://x.com/ndm_visuals
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/nicholas-mcmillan-b5177012b
 
 
 ---

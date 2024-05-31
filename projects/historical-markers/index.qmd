@@ -3,7 +3,8 @@ title: "Historical markers are everywhere in America. Some get history wrong"
 author: "Laura Sullivan, Nick McMillan"
 date: "2024-04-21"
 categories: [NPR, code]
-image: "image.jpg"
+image: "https://media.npr.org/assets/img/2024/04/17/npr_select_a-5-resize_wide-7727f4737ad893596bf47518064958b5effbd289.jpg?s=600&c=85&f=webp"
+url: "https://www.npr.org/2024/04/21/1244899635/civil-war-confederate-statue-markers-sign-history"
 ---
 
 
