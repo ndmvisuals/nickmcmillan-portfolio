@@ -7,4 +7,4 @@ image: "https://media.npr.org/assets/img/2024/03/29/bridge-rescue_wide-8d495d033
 url: "https://www.npr.org/2024/03/29/1241660667/-we-got-workers-in-the-water-audio-reveals-details-about-baltimore-bridge-rescue"
 ---
 
-This is a post with executable code.
+
