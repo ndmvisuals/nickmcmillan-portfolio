@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/project.html",
+    "items": [
+      "/projects/zombie-loans/index.html",
+      "/projects/historical-markers/index.html",
+      "/projects/key-bridge-collapse/index.html",
+      "/projects/rices-whales/index.html",
+      "/projects/capitol-riot/index.html",
+      "/projects/east-palestine-firefighters/index.html",
+      "/projects/election-deniers-map/index.html"
+    ]
+  }
+]

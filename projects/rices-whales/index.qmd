@@ -1,0 +1,10 @@
+---
+title: "Only 51 of these U.S. whales remain. Little has been done to prevent their extinction"
+author: "Chiara Eisner, Nick McMillan"
+date: "2023-011-16"
+categories: [NPR, code]
+image: "https://media.npr.org/assets/img/2023/11/15/rices-whale-kl-murphy_wide-14f8b42ce9aedb7258feb4f10e5f919e4403ce96.jpg?s=800&c=85&f=webp"
+url: "https://www.npr.org/2023/11/16/1212690111/only-51-of-these-u-s-whales-remain-little-has-been-done-to-prevent-their-extinct"
+---
+
+

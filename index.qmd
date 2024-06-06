@@ -1,0 +1,20 @@
+---
+title: "Home"
+image: nick-portrait-06618.jpg
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/ndmvisuals
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/ndm_visuals
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/nicholas-mcmillan-b5177012b
+
+
+---
+
+Award Winning Investigative Reporter | Data & Videography| Now: @NPR |Previously: @HowardCenterUMD, @Scripps

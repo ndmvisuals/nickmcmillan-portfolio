@@ -1,0 +1,8 @@
+---
+title: "Election deniers have taken their fraud theories on tour — to nearly every state"
+author: "Miles Parks, Allison Mollenkamp, Nick McMIllan"
+date: "2022-06-30"
+categories: [NPR, code]
+image: "https://media.npr.org/assets/img/2022/07/21/seamus-election22-tracking-20220531_wide-43cc8aec944035907de57f855bbf0bb3190f9cd7.png?s=800&c=85&f=webp"
+url: "https://www.npr.org/2022/06/30/1107868327/trump-election-fraud-jan-6"
+---

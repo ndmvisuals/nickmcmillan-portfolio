@@ -1,0 +1,16 @@
+---
+title: "Welcome To My Blog"
+author: "Nick McMillan"
+date: "2024-06-05"
+categories: [welcome]
+---
+
+
+Hey all!
+
+Going to be posting about data journalism, gadgets, TILs (Today I Learned), note taking, and videography .... really everything I am interested in.
+
+I have kept holding off publishing my website and blog since it wasn't perfect, but decided to embark on a _learning in the open_ phase. 
+
+Let me know if there is anything you are interested in hearing out!
+

@@ -1,0 +1,10 @@
+---
+title: "When train crashes leak harmful chemicals, small town firefighters can be vulnerable"
+author: "Chiara Eisner, Nick McMillan"
+date: "2023-03-10"
+categories: [NPR, code]
+image: "https://media.npr.org/assets/img/2023/03/09/ap230520599191991_wide-87c1b916adbad957de51e9002c868275f60fbf2c.jpg?s=600&c=85&f=webp"
+url: "https://www.npr.org/2023/03/10/1162229618/fire-fighter-safety-train-derailment"
+---
+
+
