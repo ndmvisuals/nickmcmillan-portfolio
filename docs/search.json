@@ -32,7 +32,7 @@
     "href": "posts/download_videos_yt-dlp/index.html#download-yt-dlp",
     "title": "How To Download Difficult Videos Using yt-dlp",
     "section": "Download yt-dlp",
-    "text": "Download yt-dlp\nFirst make sure you download yt-dlp. Thier github has instructions for any computer that you are, whether thats windows, mac, or linux.\nSince I am on a mac I will use the homebrew package manager:\n\n\nTerminal\n\nbrew install yt-dlp"
+    "text": "Download yt-dlp\nFirst make sure you download yt-dlp. Their github has instructions for any computer that you are, whether thats windows, mac, or linux.\nSince I am on a mac I will use the homebrew package manager:\n\n\nTerminal\n\nbrew install yt-dlp"
   },
   {
     "objectID": "posts/download_videos_yt-dlp/index.html#finding-the-correct-url",
