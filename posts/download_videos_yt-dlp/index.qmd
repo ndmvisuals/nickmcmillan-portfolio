@@ -25,7 +25,7 @@ Let's see how to grab the video off their website!
 
 ## Download yt-dlp
 
-First make sure you download yt-dlp. Thier [github](https://github.com/yt-dlp/yt-dlp) has instructions for any computer that you are, whether thats windows, mac, or linux.
+First make sure you download yt-dlp. Their [github](https://github.com/yt-dlp/yt-dlp) has instructions for any computer that you are, whether thats windows, mac, or linux.
 
 Since I am on a mac I will use the [homebrew package manager](https://brew.sh):
 
