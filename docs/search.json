@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Welcome To My Blog\n\n\n\n\n\n\nwelcome\n\n\n\n\n\n\n\n\n\nJun 5, 2024\n\n\nNick McMillan\n\n\n\n\n\n\nNo matching items"
+    "text": "How To Download Difficult Videos Using yt-dlp\n\n\n\n\n\n\ncoding\n\n\ndata journalism\n\n\nyt-dlp\n\n\nweb scraping\n\n\n\n\n\n\n\n\n\nAug 2, 2024\n\n\nNick McMillan\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nwelcome\n\n\n\n\n\n\n\n\n\nJun 5, 2024\n\n\nNick McMillan\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "project.html",
@@ -12,6 +12,48 @@
     "title": "Projects",
     "section": "",
     "text": "Zombie 2nd mortgages are coming to life, threatening thousands of Americans’ homes\n\n\n\nNPR\n\n\ntranslation\n\n\n\n\n\n\n\nChris Arnold, Robert Benincasa, Nick McMillan\n\n\nMay 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHistorical markers are everywhere in America. Some get history wrong\n\n\n\nNPR\n\n\ncode\n\n\n\n\n\n\n\nLaura Sullivan, Nick McMillan\n\n\nApr 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n‘We got workers in the water’: Audio reveals new details of Baltimore bridge rescue\n\n\n\nNPR\n\n\ncode\n\n\n\n\n\n\n\nChiara Eisner, Nick McMillan, Caitlin Thompson\n\n\nMar 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOnly 51 of these U.S. whales remain. Little has been done to prevent their extinction\n\n\n\nNPR\n\n\ncode\n\n\n\n\n\n\n\nChiara Eisner, Nick McMillan\n\n\nNov 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1,000 people have been charged for the Capitol riot. Here’s where their cases stand\n\n\n\nNPR\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nMeg Anderson, Nick McMillan\n\n\nMar 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhen train crashes leak harmful chemicals, small town firefighters can be vulnerable\n\n\n\nNPR\n\n\ncode\n\n\n\n\n\n\n\nChiara Eisner, Nick McMillan\n\n\nMar 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElection deniers have taken their fraud theories on tour — to nearly every state\n\n\n\nNPR\n\n\ncode\n\n\n\n\n\n\n\nMiles Parks, Allison Mollenkamp, Nick McMIllan\n\n\nJun 30, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/download_videos_yt-dlp/index.html",
+    "href": "posts/download_videos_yt-dlp/index.html",
+    "title": "How To Download Difficult Videos Using yt-dlp",
+    "section": "",
+    "text": "This past week one of my colleagues on the NPR investigations team needed to download a subcommittee hearing from the U.S Senate Committee on the Judiciary.\nWhen downloading videos from youtube I always use the command line tool yt-dlp. Normally it is as simple typing the program’s name and the url of the video you are trying to download:\n\n\nTerminal\n\nyt-dlp https://www.youtube.com/watch?v=Tfe5kMbFGuE\n\nHowever the U.S Senate Committee on the Judiciary website makes things a bit more difficult. If we put in the url of the webpage that the video is located on we get the following error:\n\n\n\n“ERROR: Unable to extract url”\n\n\nLet’s see how to grab the video off their website!"
+  },
+  {
+    "objectID": "posts/download_videos_yt-dlp/index.html#the-problem",
+    "href": "posts/download_videos_yt-dlp/index.html#the-problem",
+    "title": "How To Download Difficult Videos Using yt-dlp",
+    "section": "",
+    "text": "This past week one of my colleagues on the NPR investigations team needed to download a subcommittee hearing from the U.S Senate Committee on the Judiciary.\nWhen downloading videos from youtube I always use the command line tool yt-dlp. Normally it is as simple typing the program’s name and the url of the video you are trying to download:\n\n\nTerminal\n\nyt-dlp https://www.youtube.com/watch?v=Tfe5kMbFGuE\n\nHowever the U.S Senate Committee on the Judiciary website makes things a bit more difficult. If we put in the url of the webpage that the video is located on we get the following error:\n\n\n\n“ERROR: Unable to extract url”\n\n\nLet’s see how to grab the video off their website!"
+  },
+  {
+    "objectID": "posts/download_videos_yt-dlp/index.html#download-yt-dlp",
+    "href": "posts/download_videos_yt-dlp/index.html#download-yt-dlp",
+    "title": "How To Download Difficult Videos Using yt-dlp",
+    "section": "Download yt-dlp",
+    "text": "Download yt-dlp\nFirst make sure you download yt-dlp. Thier github has instructions for any computer that you are, whether thats windows, mac, or linux.\nSince I am on a mac I will use the homebrew package manager:\n\n\nTerminal\n\nbrew install yt-dlp"
+  },
+  {
+    "objectID": "posts/download_videos_yt-dlp/index.html#finding-the-correct-url",
+    "href": "posts/download_videos_yt-dlp/index.html#finding-the-correct-url",
+    "title": "How To Download Difficult Videos Using yt-dlp",
+    "section": "Finding the correct url",
+    "text": "Finding the correct url\nWhen websites play videos that they host on their own website, there will usually be a .m3u8 file. A M3U8 file is simply a text file that contains the location of files that your browser will stream1\nTo find the text file follow these steps:\n\nOpen up your developer settings of your browser2\nNavigate to the Network tab\nRefresh the page\nSearch for and then click the .m3u8 file\nFind the url that ends in .m3u8\n\n\n\n\n“Annotated Steps”\n\n\nIn this case the url is:\n\nhttps://www-senate-gov-media-srs.akamaized.net/hls/live/2036788/judiciary/judiciary102523p/master.m3u8\n\nRemember how I said that a .m3u8 file is just a set of instructions and locations regarding a video? If you were to put the url into your browser it would download the file which looks like this:\n\n\n\n\n\n\n.m3u8 file\n\n\n\n#EXTM3U #EXT-X-VERSION:3 #EXT-X-INDEPENDENT-SEGMENTS #EXT-X-STREAM-INF:BANDWIDTH=712800,AVERAGE-BANDWIDTH=765600,CODECS=“avc1.4d401f,mp4a.40.2”,RESOLUTION=1280x720,FRAME-RATE=30.000,SUBTITLES=“subs” master/index_1.m3u8 #EXT-X-MEDIA:TYPE=SUBTITLES,NAME=“English”,DEFAULT=YES,AUTOSELECT=YES,FORCED=NO,LANGUAGE=“eng”,GROUP-ID=“subs”,URI=“master/text_1.m3u8”"
+  },
+  {
+    "objectID": "posts/download_videos_yt-dlp/index.html#download-the-video",
+    "href": "posts/download_videos_yt-dlp/index.html#download-the-video",
+    "title": "How To Download Difficult Videos Using yt-dlp",
+    "section": "Download the video",
+    "text": "Download the video\nIf we give yt-dlp the .m3u8 url it will download the video!\n\n\nTerminal\n\n\nyt-dlp https://www-senate-gov-media-srs.akamaized.net/hls/live/2036788/judiciary/judiciary102523p/master.m3u8\n\nCongrats the video has downloaded! If you are unsure the location the video was downloaded, just type the following into the terminal:\n\n\nTerminal\n\nopen .\n\nLet me know if you have any questions!"
+  },
+  {
+    "objectID": "posts/download_videos_yt-dlp/index.html#footnotes",
+    "href": "posts/download_videos_yt-dlp/index.html#footnotes",
+    "title": "How To Download Difficult Videos Using yt-dlp",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://www.thetechedvocate.org/what-is-an-m3u8-file/↩︎\nhttps://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools↩︎"
   },
   {
     "objectID": "posts/welcome/index.html",

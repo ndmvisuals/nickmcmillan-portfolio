@@ -1,0 +1,88 @@
+---
+title: "How To Download Difficult Videos Using yt-dlp"
+author: "Nick McMillan"
+date: "2024-08-02"
+categories: [coding, data journalism, yt-dlp, web scraping ]
+image: "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/.github/banner.svg"
+
+---
+
+## The problem
+
+This past week one of my colleagues on the NPR investigations team needed to download a subcommittee hearing from the [U.S Senate Committee on the Judiciary](https://www.judiciary.senate.gov). 
+
+When downloading videos from youtube I always use the command line tool [yt-dlp](https://github.com/yt-dlp/yt-dlp). Normally it is as simple typing the program's name and the url of the video you are trying to download:
+
+```{.bash filename="Terminal"}
+yt-dlp https://www.youtube.com/watch?v=Tfe5kMbFGuE
+```
+
+However the U.S Senate Committee on the Judiciary website makes things a bit more difficult. If we put in the [url](https://www.judiciary.senate.gov/committee-activity/hearings/pregnancy-in-georgias-prisons) of the webpage that the video is located on we get the following error:
+
+!["ERROR: Unable to extract url"](photos/yt-dlp_error.png)
+
+Let's see how to grab the video off their website!
+
+## Download yt-dlp
+
+First make sure you download yt-dlp. Thier [github](https://github.com/yt-dlp/yt-dlp) has instructions for any computer that you are, whether thats windows, mac, or linux.
+
+Since I am on a mac I will use the [homebrew package manager](https://brew.sh):
+
+```{.bash filename="Terminal"}
+brew install yt-dlp
+```
+
+
+## Finding the correct url
+
+When websites play videos that they host on their own website, there will usually be a `.m3u8` file. A M3U8 file is simply a text file that contains the location of files that your browser will stream^[https://www.thetechedvocate.org/what-is-an-m3u8-file/]
+
+To find the text file follow these steps:
+
+1. Open up your developer settings of your browser^[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools]
+2. Navigate to the `Network` tab
+3. Refresh the page
+4. Search for and then click the .m3u8 file
+5. Find the url that ends in .m3u8
+
+!["Annotated Steps"](photos/developer-steps.png)
+
+In this case the url is:
+
+> https://www-senate-gov-media-srs.akamaized.net/hls/live/2036788/judiciary/judiciary102523p/master.m3u8
+
+Remember how I said that a .m3u8 file is just a set of instructions and locations regarding a video? If you were to put the url into your browser it would download the file which looks like this:
+
+::: {.callout-note}
+
+## .m3u8 file
+
+{{< include data/master.m3u8 >}}
+
+:::
+
+## Download the video
+
+If we give `yt-dlp` the .m3u8 url it will download the video!
+
+```{.bash filename="Terminal"}
+
+yt-dlp https://www-senate-gov-media-srs.akamaized.net/hls/live/2036788/judiciary/judiciary102523p/master.m3u8
+
+```
+
+Congrats the video has downloaded! If you are unsure the location the video was downloaded, just type the following into the terminal:
+
+```{.bash filename="Terminal"}
+open .
+```
+
+Let me know if you have any questions!
+
+
+
+
+
+
+
