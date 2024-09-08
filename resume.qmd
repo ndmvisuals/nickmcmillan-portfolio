@@ -1,0 +1,205 @@
+---
+format:
+  typst:
+    keep-typ: false
+---
+
+
+```{=typst}
+#show link: underline
+```
+
+
+```{=typst}
+#let envelope = symbol(
+  "\u{f0e0}",
+  ("open", "\u{f2b6}"),
+  ("open.text", "\u{f658}"),
+  ("square", "\u{f199}"),
+)
+#let github = symbol(
+  "\u{f09b}",
+  ("alt", "\u{f113}"),
+  ("square", "\u{f092}"),
+)
+#let globe = symbol(
+  "\u{f0ac}",
+  ("africa", "\u{f57c}"),
+  ("americas", "\u{f57d}"),
+  ("asia", "\u{f57e}"),
+  ("europe", "\u{f7a2}"),
+)
+#let linkedin = symbol(
+  "\u{f08c}",
+  ("in", "\u{f0e1}"),
+)
+
+#let fa(name) = {
+  text(
+    font: "Font Awesome 6 Free Solid",
+    size: 10pt,
+    box[ #name ]
+  )
+}
+
+```
+
+```{=typst}
+
+// Cannot just use normal --- ligature becuase ligatures are disabled for good reasons
+#let dates-helper(
+  start-date: "",
+  end-date: "",
+) = {
+  start-date + " " + $dash.em$ + " " + end-date
+}
+
+// Generic two by two component for resume
+#let generic-two-by-two(
+  top-left: "",
+  top-right: "",
+  bottom-left: "",
+  bottom-right: "",
+) = {
+  pad[
+    #top-left #h(1fr) #top-right \
+    #bottom-left #h(1fr) #bottom-right
+  ]
+}
+
+
+#let work(
+  title: "",
+  dates: "",
+  company: "",
+  location: "",
+) = {
+  generic-two-by-two(
+    top-left: strong(title),
+    top-right: dates,
+    bottom-left: company,
+    bottom-right: emph(location),
+  )
+}
+
+```
+
+# Nick McMillan
+
+```{=typst}
+#fa[#envelope] hello\@nickmcmillan.com |
+#fa[#globe] #link("https://nickmcmillan.com")[nickmcmillan.com]
+#fa[#github] #link("https://github.com/ndmvisuals")[github.com/ndmvisuals]
+#line(length: 100%)
+```
+
+# Experience
+
+```{=typst}
+
+#work(
+  title: "Investigative Data Reporter",
+  location: "Washington, DC",
+  company: "NPR",
+  dates: dates-helper(start-date: "January 2022", end-date: "Present"),
+)
+- Conducting data analysis and D3 graphics for 6 month investigation
+- Coding newsroom tools and data pipelines to aid investigations
+- Pitching data driven stories and producing video accompaniments
+- Webscraped GoFundMe to identify sources for medical debt story
+
+#work(
+  title: "Freelance Election Webscraping",
+  location: "Remote",
+  company: "Associated Press",
+  dates: dates-helper(start-date: "September 2021", end-date: "December 2022"),
+)
+- Web scraping election results to feed AP’s election database 
+- Coding pipelines to parse messy pdf election results
+
+#work(
+  title: "Data and Video Reporter",
+  company: "Howard Center for Investigative Journalism",
+  dates: dates-helper(start-date: "August 2020", end-date: "December 2021"),
+)
+- Filmed, animated, and edited the Howard Center’s first short #link("https://www.youtube.com/watch?v=t5dwfbmb328")[documentary] about how the white press fueled the 1919 Elaine massacre
+- Lead the #link("https://howard-center-investigations.github.io/essential_and_exposed/osha_walmart/index.html")[data team] for the #link("https://cnsmaryland.org/2021/05/12/as-walmart-sales-soared-workers-got-scant-covid-19-protection-from-osha/")[Essential and Exposed]series, investigating workplace safety during the pandemic
+- Data analysis in R and developed Github workflow for a team of data journalists
+// - Designed object-oriented webscrapers in Python for Court Scraper, an open-source proj- ect to create a generic scraper that can support most common court website platforms
+// - Created news app in Javascript that explores how hundreds of newspapers covered lynchings and “helped create a culture that fomented racial terror” across the US
+
+#work(
+  title: "Investigative Video Journalist",
+  company: "E.W. Scripps",
+  dates: dates-helper(start-date: "May 2019", end-date: "August 2020"),
+)
+- Filmed, edited, and planned the #link("https://www.scrippsnews.com/us-news/education/puerto-rico-schools-stuck-money-delays-much-needed-repairs")[short documentary “Dismissed,”] which depicts how mold and other 2017 hurricane damage is still gripping schools in Puerto Rico
+- Videographer for the #link("https://www.scrippsnews.com/science-and-tech/climate-change/ghost-forest-dying-trees-show-climate-change-s-advance")[short documentary “Ghost Forests,”] which was published in “Time Magazine” and explores the effects of rising ocean levels
+- Produced, filmed, edited, and animated motion graphics for #link("https://www.youtube.com/watch?v=FFAsqELhL0c")[“Off-Balance,”] an investiga- tion into the lack of regulation of electric scooters
+// - Produced motion graphics for #link("https://www.usatoday.com/videos/news/investigations/2020/03/19/dentists-under-pressure-drill-healthy-teeth-profit/2862941001/")[“Open Wide,”] a piece about corruption in the dentistry industry and #link("https://www.scrippsnews.com/investigations/a-broken-trust")[“Broken Trust,”] a documentary about sexual assault on tribal lands
+// - Developed code to scrape message boards to help uncover white supremacists in the U.S. armed forces for the #link("https://www.scrippsnews.com/us-news/military/we-found-more-active-duty-military-in-leaked-neo-nazi-forum")[open source investigation] with Bellingcat
+
+
+```
+
+```{=typst}
+#set rect(
+  inset: 8pt,
+  fill: rgb("e4e5ea"),
+  width: 100%,
+)
+
+#grid(
+  columns: 3,
+  rows: 1,
+  gutter: 10pt,
+  [
+    = Awards and Honors
+    #line(length: 100%)
+    - 2022 NICAR Presenter: #link("https://actions-pipeline.readthedocs.io/en/latest/")[Building a data pipeline with Github Actions]
+    - 2021 IRE Medal: #link("https://www.ire.org/announcing-the-2021-ire-award-winners/")[Printing Hate]
+    - 2021 SPJ - Best Use of Multimedia #link("https://www.spj.org/news.asp?REF=1870")[Elaine Massacre Documentary]
+  ],
+  [
+  = Skills
+  #line(length: 100%)
+  #grid(
+    columns: 1,
+    rows: 3,
+    gutter: 3pt,
+    [
+      ==== Media
+      - Premiere, After Effects, Photoshop, Illustrator
+    ],
+    [
+      ==== Code
+      - Python, R, HTML/CSS, D3, Javascript
+    ],
+    [
+      ==== Language
+    - German, Spanish
+    ]
+  )
+
+
+
+  ],
+  [
+  = Education
+  #line(length: 100%)
+  - 2020-2021 University of Maryland, Masters in Journalism
+  - 2015-2019 Rice Univeristy, B.A in Statistics
+
+  ]
+)
+
+```
+
+
+
+
+
+
+
+
+

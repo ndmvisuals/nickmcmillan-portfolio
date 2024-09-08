@@ -5,10 +5,12 @@ project:
 website:
   title: "Nick McMillan"
   navbar:
-    right:
+    left:
       - index.qmd
       - project.qmd
       - blog.qmd
+      - text: "Resume"
+        href: resume.qmd
 format:
   html:
     theme: litera
