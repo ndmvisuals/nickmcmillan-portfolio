@@ -103,10 +103,9 @@ format:
   company: "NPR",
   dates: dates-helper(start-date: "January 2022", end-date: "Present"),
 )
-- Conducting data analysis and D3 graphics for 6 month investigation
-- Coding newsroom tools and data pipelines to aid investigations
-- Pitching data driven stories and producing video accompaniments
-- Webscraped GoFundMe to identify sources for medical debt story
+- Developed a custom data pipeline to batch download, locally transcribe, and automatically generate a sentence-by-sentence timeline of first responder calls for #link("https://www.npr.org/2024/03/29/1241660667/-we-got-workers-in-the-water-audio-reveals-details-about-baltimore-bridge-rescue")[visual/audio] #link("https://www.npr.org/2025/01/18/nx-s1-5262563/radio-traffic-la-fires-first-responders-water-shortage")[investigations]
+- Built a #link("https://npr-investigations.github.io/npr-wildlife-services/")[computer vision pipeline] to process thousands of scanned work orders for #link("https://www.npr.org/2024/10/10/g-s1-26426/wildlife-services-usda-wild-animals-killed-livestock")[investigation] into government wildlife program
+- Analyzed more than #link("https://blog.apps.npr.org/2024/02/12/rices-whales.html")[2 billion rows of ship GPS data] for novel analysis of ship speeds in Rice's whales habitat
 
 #work(
   title: "Freelance Election Webscraping",
@@ -124,7 +123,7 @@ format:
 )
 - Filmed, animated, and edited the Howard Center’s first short #link("https://www.youtube.com/watch?v=t5dwfbmb328")[documentary] about how the white press fueled the 1919 Elaine massacre
 - Lead the #link("https://howard-center-investigations.github.io/essential_and_exposed/osha_walmart/index.html")[data team] for the #link("https://cnsmaryland.org/2021/05/12/as-walmart-sales-soared-workers-got-scant-covid-19-protection-from-osha/")[Essential and Exposed]series, investigating workplace safety during the pandemic
-- Data analysis in R and developed Github workflow for a team of data journalists
+// - Data analysis in R and developed Github workflow for a team of data journalists
 // - Designed object-oriented webscrapers in Python for Court Scraper, an open-source proj- ect to create a generic scraper that can support most common court website platforms
 // - Created news app in Javascript that explores how hundreds of newspapers covered lynchings and “helped create a culture that fomented racial terror” across the US
 
@@ -135,7 +134,7 @@ format:
 )
 - Filmed, edited, and planned the #link("https://www.scrippsnews.com/us-news/education/puerto-rico-schools-stuck-money-delays-much-needed-repairs")[short documentary “Dismissed,”] which depicts how mold and other 2017 hurricane damage is still gripping schools in Puerto Rico
 - Videographer for the #link("https://www.scrippsnews.com/science-and-tech/climate-change/ghost-forest-dying-trees-show-climate-change-s-advance")[short documentary “Ghost Forests,”] which was published in “Time Magazine” and explores the effects of rising ocean levels
-- Produced, filmed, edited, and animated motion graphics for #link("https://www.youtube.com/watch?v=FFAsqELhL0c")[“Off-Balance,”] an investiga- tion into the lack of regulation of electric scooters
+- Produced, filmed, edited, and animated motion graphics for #link("https://www.youtube.com/watch?v=FFAsqELhL0c")[“Off-Balance,”] an investigation into the lack of regulation of electric scooters
 // - Produced motion graphics for #link("https://www.usatoday.com/videos/news/investigations/2020/03/19/dentists-under-pressure-drill-healthy-teeth-profit/2862941001/")[“Open Wide,”] a piece about corruption in the dentistry industry and #link("https://www.scrippsnews.com/investigations/a-broken-trust")[“Broken Trust,”] a documentary about sexual assault on tribal lands
 // - Developed code to scrape message boards to help uncover white supremacists in the U.S. armed forces for the #link("https://www.scrippsnews.com/us-news/military/we-found-more-active-duty-military-in-leaked-neo-nazi-forum")[open source investigation] with Bellingcat
 
@@ -169,7 +168,7 @@ format:
     gutter: 3pt,
     [
       ==== Media
-      - Premiere, After Effects, Photoshop, Illustrator
+      - Premiere, After Effects, Blender
     ],
     [
       ==== Code
